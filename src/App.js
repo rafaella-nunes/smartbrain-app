@@ -22,8 +22,6 @@ class App extends Component{
     console.log(event.target.value);
   }
   
-  
-  
   onButtonSubmit = () => {
   
       app.models
@@ -112,6 +110,7 @@ fetch("https://api.clarifai.com/v2/models/" + MODEL_ID + "/versions/" + MODEL_VE
 
   }
 */
+
   render(){
     return (
       <div className="App">
